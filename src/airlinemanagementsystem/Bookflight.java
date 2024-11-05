@@ -233,4 +233,3 @@ public class Bookflight extends JFrame implements ActionListener {
         new Bookflight();
     }
 }
-

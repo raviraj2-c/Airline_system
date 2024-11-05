@@ -9,8 +9,9 @@ public class connection {
         
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            c = DriverManager.getConnection("jdbc:mysql:///airlinemanagementsystem", "root","ravi@rupa@1234");
-            s = c.createStatement();
+
+           c = DriverManager.getConnection("jdbc:mysql://localhost:3306/airlinemanagementsystem", "root","ravi@rupa@1234");
+ s = c.createStatement();
         }catch(Exception e){
             e.printStackTrace();
         }

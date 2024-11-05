@@ -63,4 +63,3 @@ public class Jurneydetails extends JFrame implements ActionListener {
         new Jurneydetails();
     }
 }
-

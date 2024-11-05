@@ -144,4 +144,3 @@ public class Cancel extends JFrame implements ActionListener {
         new Cancel();
     }
 }
-
