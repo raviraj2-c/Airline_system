@@ -13,9 +13,6 @@ The **Airline Management System** is a Java-based desktop application designed t
 - **Flight Cancellation**: Manage flight cancellations and initiate refund processing.
 - **User Authentication**: Secure login system for users and administrators.
 
-## Project Structure
-
-src/ ├── airlinemanagementsystem/ │ ├── Addcustamer.java # Manages customer addition functionality │ ├── Bodingpass.java # Handles boarding pass generation (should be BoardingPass.java) │ ├── Bookflight.java # Flight booking functionality │ ├── Cancel.java # Flight cancellation process │ ├── connection.java # Database connection handler │ ├── Flightinfo.java # Retrieves flight schedules and details │ ├── Home.java # Main entry point for the application │ ├── Jurneydetails.java # Manages journey details (should be JourneyDetails.java) │ ├── Login.java # User authentication and login functionality │ └── icone/ # Directory containing image assets (icons, logos) │ ├── airindia.png # Airline icon (Air India logo) │ ├── cancel.jpg # Icon for flight cancellation │ ├── details.jpg # Icon representing details section │ ├── emp.png # Icon for employee section │ ├── front.jpg # Background image for home/login page └── README.md # Project documentation (this file)
 
 
 
@@ -41,7 +38,7 @@ src/ ├── airlinemanagementsystem/ │ ├── Addcustamer.java # Manages
 
     ```bash
     git clone https://github.com/raviraj2-c/Airline_system.git
-    cd airline-management-system
+    cd Airline_system
     ```
 
 2. **Set up the database**:
